@@ -5,10 +5,6 @@ Run with plain Docker:
     docker build -t pour-site .
     docker run -d --name pour-site -p 8080:80 pour-site
 
-Or with Compose:
-
-    docker compose up -d --build
-
 Open http://localhost:8080
 
 Stop and remove: `docker rm -f pour-site` (or `docker compose down`).
